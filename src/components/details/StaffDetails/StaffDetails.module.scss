@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  margin-top: 50px;
+}
+
+.bigImg {
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.objDiv {
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.objName {
+  margin: 10px 0;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 30px 0;
+  color: var(--black);
+
+  & .title-link:hover {
+    color: var(--primary);
+  }
+}
